@@ -1,4 +1,3 @@
-
 /*
 ================================================
 JAVASCRIPT PRIMITIVE DATA TYPES ASSIGNMENT
@@ -14,67 +13,73 @@ Topics:
 4. Null
 5. Undefined
 
-Instructions:
-- Complete all five questions.
-- Replace the placeholder values.
-- Do not delete the question comments.
-- Run your work using: node assignment.js
+INSTRUCTIONS:
+- Write your JavaScript code below.
+- Declare your variables one by one.
+- Do not create an object to store your answers.
+- Complete all five data type questions.
+- Run your code using: node assignment.js
 - Test your work using: npm test
 */
 
-const answers = {
 
-    // ==========================================
-    // Q1: NUMBER DATA TYPE
-    // ==========================================
+// ==========================================
+// Q1: NUMBER DATA TYPE
+// ==========================================
 
-    // Create an integer representing your age.
-    studentAge: null,
+// 1. Declare a variable representing your age.
 
-    // Create a decimal number representing your
-    // course completion percentage.
-    courseProgress: null,
+// 2. Declare a variable representing your course
+// completion percentage.
 
-
-    // ==========================================
-    // Q2: STRING DATA TYPE
-    // ==========================================
-
-    // Store your full name as a string.
-    studentName: "",
-
-    // Create a welcome message using your name.
-    // Example: "Welcome Hassan, keep learning JavaScript!"
-    welcomeMessage: "",
+// 3. Print both variables to the console.
 
 
-    // ==========================================
-    // Q3: BOOLEAN DATA TYPE
-    // ==========================================
+// ==========================================
+// Q2: STRING DATA TYPE
+// ==========================================
 
-    // Are you currently learning JavaScript?
-    isLearningJavaScript: null,
+// 4. Declare a variable containing your full name.
 
-    // Have you completed this assignment?
-    hasCompletedAssignment: null,
+// 5. Declare a welcome message using your name.
 
-
-    // ==========================================
-    // Q4: NULL DATA TYPE
-    // ==========================================
-
-    // Declare a variable representing a future project.
-    // Assign it the value null.
-    futureProject: undefined,
+// 6. Print both variables to the console.
 
 
-    // ==========================================
-    // Q5: UNDEFINED DATA TYPE
-    // ==========================================
+// ==========================================
+// Q3: BOOLEAN DATA TYPE
+// ==========================================
 
-    // Declare a variable without assigning a value.
-    favouriteLanguage: undefined
+// 7. Declare a Boolean variable indicating whether
+// you are currently learning JavaScript.
 
-};
+// 8. Declare a Boolean variable indicating whether
+// you have completed this assignment.
 
-module.exports = answers;
+// 9. Print both variables to the console.
+
+
+// ==========================================
+// Q4: NULL DATA TYPE
+// ==========================================
+
+// 10. Declare a variable representing a future project.
+// Assign it the value null.
+
+// 11. Print the variable to the console.
+
+
+// ==========================================
+// Q5: UNDEFINED DATA TYPE
+// ==========================================
+
+// 12. Declare a variable named favouriteLanguage without assigning a value.
+
+// 13. Print the variable to the console.
+
+
+// ==========================================
+// BONUS: CHECK THE DATA TYPES
+// ==========================================
+
+// Use typeof to display the data type of your variables.
