@@ -22,70 +22,32 @@ This assignment is designed to help you develop practical programming skills thr
 
 ## 2. Learning Objectives
 
-By the end of this assignment, you should be able to:
+By completing this assignment, students should be able to:
 
 1. Explain what JavaScript data types are.
-2. Differentiate between primitive and non-primitive data types.
+2. Understand primitive data types.
 3. Declare and initialize variables.
-4. Work with numbers and strings.
-5. Use Boolean values.
-6. Understand null and undefined.
-7. Create unique Symbols.
-8. Work with BigInt.
-9. Create and manipulate objects.
-10. Create and manipulate arrays.
-11. Define and call functions.
-12. Work with Date objects.
-13. Use regular expressions.
-14. Check data types using typeof.
-15. Explain the difference between primitive values and objects.
+4. Identify Number values.
+5. Work with String values.
+6. Understand Boolean values (`true` and `false`).
+7. Explain the purpose of `null`.
+8. Understand `undefined`.
+9. Use the `typeof` operator to identify data types.
+10. Differentiate between `null` and `undefined`.
 
-## 3. JavaScript Data Type Categories
+## 3. Topics Covered
 
-JavaScript data types are grouped into two major categories.
+This assignment covers ONLY the following five JavaScript primitive data types:
 
-### A. Primitive Data Types
+| No. | Data Type | Example |
+|---|---|---|
+| 1 | Number | `let age = 22;` |
+| 2 | String | `let name = "Hassan";` |
+| 3 | Boolean | `let isStudent = true;` |
+| 4 | Null | `let project = null;` |
+| 5 | Undefined | `let course;` |
 
-Primitive data types represent individual values.
-
-The seven primitive types are:
-
-1. Number
-2. String
-3. Boolean
-4. Null
-5. Undefined
-6. Symbol
-7. BigInt
-
-### B. Non-Primitive Data Types
-
-These are commonly called reference types.
-
-For this assignment, we will practice:
-
-1. Object
-2. Array
-3. Function
-4. Date Object
-5. Regular Expression (RegExp)
-
-## 4. Software Requirements
-
-Before starting, ensure that you have installed:
-
-- Node.js (version 20 or newer).
-- Git.
-- Visual Studio Code.
-- An active GitHub account.
-
-Check your installations using:
-
-```bash
-node --version
-npm --version
-git --version
-```
+**Important:** Symbol, BigInt, Object, Array, Function, Date, and Regular Expression are not included in this assignment.
 
 ## 5. How to Get the Assignment
 
