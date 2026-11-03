@@ -1,118 +1,75 @@
 
 /*
-JAVASCRIPT DATA TYPES ASSIGNMENT
+JavaScript Data Types Assignment
 
 Student name:
 GitHub username:
 
-Instructions:
-Complete every TODO and run the file using:
-node assignment.js
+Complete the values and function below.
+Then run: npm test
 */
 
-// Q1: NUMBER
-// Create an integer variable and a decimal variable.
-// Print both values.
+const answers = {
+  // Q1: Number
+  studentAge: null,
+  courseProgress: null,
 
-// TODO
+  // Q2: String
+  studentName: "",
+  welcomeMessage: "",
 
+  // Q3: Boolean
+  isLearningJavaScript: null,
+  hasCompletedAssignment: null,
 
-// Q2: STRING
-// Create a studentName variable.
-// Use a template literal to print a welcome message.
+  // Q4: Null and undefined
+  futureProject: undefined,
+  favouriteLanguage: undefined,
 
-// TODO
+  // Q5: Symbol
+  firstSymbol: null,
+  secondSymbol: null,
 
+  // Q6: BigInt
+  largeNumber: null,
 
-// Q3: BOOLEAN
-// Create isLearningJavaScript and hasCompletedAssignment.
-// Assign boolean values and print them.
+  // Q7: NaN
+  invalidCalculation: null,
 
-// TODO
+  // Q8: Object
+  student: {},
 
+  // Q9: Array
+  topics: [],
 
-// Q4: NULL AND UNDEFINED
-// Create futureProject and assign null.
-// Declare favouriteLanguage without assigning a value.
-// Print both and explain the difference in a comment.
+  // Q10: Function
+  greetStudent: function (name) {
+    // TODO: Return a greeting containing the name.
+    return "";
+  },
 
-// TODO
+  // Q11: Date
+  currentDate: null,
 
+  // Q12: Regular expression
+  pattern: null,
 
-// Q5: SYMBOL
-// Create two symbols with the description "studentId".
-// Compare them using === and explain the result.
+  // Q13: Mixed array
+  mixedValues: [],
 
-// TODO
+  // Q14: typeof examples
+  typeSamples: {
+    number: null,
+    string: null,
+    boolean: null,
+    object: null,
+    array: null,
+    function: null,
+    nullValue: null
+  },
 
+  // Q15: Explain primitive values versus objects.
+  primitiveVsObject: ""
+};
 
-// Q6: BIGINT
-// Create a BigInt greater than Number.MAX_SAFE_INTEGER.
-// Print its value and type.
-
-// TODO
-
-
-// Q7: NaN
-// Divide a non-numeric string by a number.
-// Print the result and check it using Number.isNaN().
-
-// TODO
-
-
-// Q8: OBJECT
-// Create a student object with name, course, year, and isEnrolled.
-// Print its name and course. Add a campus property.
-
-// TODO
-
-
-// Q9: ARRAY
-// Create an array of four JavaScript topics.
-// Print the first and last elements.
-// Add another topic using push().
-
-// TODO
-
-
-// Q10: FUNCTION
-// Write greetStudent(name), returning a greeting.
-// Call it and print the result.
-
-// TODO
-
-
-// Q11: DATE
-// Create a Date object for the current date and time.
-// Print it.
-
-// TODO
-
-
-// Q12: REGULAR EXPRESSION
-// Create a regular expression to check for "JavaScript".
-// Use test() and print the result.
-
-// TODO
-
-
-// Q13: MIXED ARRAY
-// Create an array containing a string, number, boolean,
-// null, and an object. Explain why this is allowed.
-
-// TODO
-
-
-// Q14: TYPEOF
-// Use typeof to inspect a number, string, boolean,
-// object, array, and function.
-// Also check typeof null and explain the result.
-
-// TODO
-
-
-// Q15: PRIMITIVE VS OBJECT
-// Explain one difference between primitive values and objects.
-// Give one example of each.
-
-// TODO
+module.exports = answers;
