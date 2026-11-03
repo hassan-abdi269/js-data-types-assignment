@@ -1,8 +1,7 @@
-
 {
   "name": "js-data-types-assignment",
   "version": "1.0.0",
-  "description": "JavaScript data types assignment for students",
+  "description": "JavaScript Data Types Assignment for Students",
   "type": "commonjs",
   "scripts": {
     "test": "node --test"
