@@ -1,75 +1,80 @@
 
 /*
-JavaScript Data Types Assignment
+================================================
+JAVASCRIPT PRIMITIVE DATA TYPES ASSIGNMENT
+================================================
 
-Student name:
-GitHub username:
+Student Name:
+GitHub Username:
 
-Complete the values and function below.
-Then run: npm test
+Topics:
+1. Number
+2. String
+3. Boolean
+4. Null
+5. Undefined
+
+Instructions:
+- Complete all five questions.
+- Replace the placeholder values.
+- Do not delete the question comments.
+- Run your work using: node assignment.js
+- Test your work using: npm test
 */
 
 const answers = {
-  // Q1: Number
-  studentAge: null,
-  courseProgress: null,
 
-  // Q2: String
-  studentName: "",
-  welcomeMessage: "",
+    // ==========================================
+    // Q1: NUMBER DATA TYPE
+    // ==========================================
 
-  // Q3: Boolean
-  isLearningJavaScript: null,
-  hasCompletedAssignment: null,
+    // Create an integer representing your age.
+    studentAge: null,
 
-  // Q4: Null and undefined
-  futureProject: undefined,
-  favouriteLanguage: undefined,
+    // Create a decimal number representing your
+    // course completion percentage.
+    courseProgress: null,
 
-  // Q5: Symbol
-  firstSymbol: null,
-  secondSymbol: null,
 
-  // Q6: BigInt
-  largeNumber: null,
+    // ==========================================
+    // Q2: STRING DATA TYPE
+    // ==========================================
 
-  // Q7: NaN
-  invalidCalculation: null,
+    // Store your full name as a string.
+    studentName: "",
 
-  // Q8: Object
-  student: {},
+    // Create a welcome message using your name.
+    // Example: "Welcome Hassan, keep learning JavaScript!"
+    welcomeMessage: "",
 
-  // Q9: Array
-  topics: [],
 
-  // Q10: Function
-  greetStudent: function (name) {
-    // TODO: Return a greeting containing the name.
-    return "";
-  },
+    // ==========================================
+    // Q3: BOOLEAN DATA TYPE
+    // ==========================================
 
-  // Q11: Date
-  currentDate: null,
+    // Are you currently learning JavaScript?
+    isLearningJavaScript: null,
 
-  // Q12: Regular expression
-  pattern: null,
+    // Have you completed this assignment?
+    hasCompletedAssignment: null,
 
-  // Q13: Mixed array
-  mixedValues: [],
 
-  // Q14: typeof examples
-  typeSamples: {
-    number: null,
-    string: null,
-    boolean: null,
-    object: null,
-    array: null,
-    function: null,
-    nullValue: null
-  },
+    // ==========================================
+    // Q4: NULL DATA TYPE
+    // ==========================================
 
-  // Q15: Explain primitive values versus objects.
-  primitiveVsObject: ""
+    // Declare a variable representing a future project.
+    // Assign it the value null.
+    futureProject: undefined,
+
+
+    // ==========================================
+    // Q5: UNDEFINED DATA TYPE
+    // ==========================================
+
+    // Declare a variable without assigning a value.
+    favouriteLanguage: undefined
+
 };
 
 module.exports = answers;
